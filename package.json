@@ -7,6 +7,8 @@
   ],
   "scripts": {
     "build": "lerna run build",
+    "build:site": "lerna run --scope site build",
+    "build:storybook": "lerna run --scope hds-react build-storybook",
     "bootstrap": "lerna bootstrap --use-workspaces",
     "start:react": "lerna run --scope hds-core --scope hds-react start --parallel",
     "build:react": "lerna run --scope hds-core --scope hds-react build",
