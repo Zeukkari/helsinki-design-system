@@ -9,12 +9,10 @@
     "build": "docz build"
   },
   "dependencies": {
-    "docz": "^2.0.0-rc.67",
+    "docz": "^2.0.0-rc.75",
+    "hds-core": "0.3.0",
+    "hds-react": "0.3.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
-  },
-  "devDependencies": {
-    "hds-core": "file:../packages/core/",
-    "hds-react": "file:../packages/react/src/"
   }
 }
