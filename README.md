@@ -17,7 +17,7 @@ Helsinki Design System uses [**Lerna**](https://lerna.js.org/) for running scrip
 | Command                            | Description                                                |
 | ---------------------------------- | ---------------------------------------------------------- |
 | yarn                               | Install dependencies and link local packages.              |
-| yarn start:\<platform>             | Start dev env for platform.                                |
+| yarn start:\<platform>             | Start dev env fors platform.                                |
 | yarn build:\<platform>             | Build packages for platform.                               |
 | lerna run build --scope \<package> | Build only \<package>.                                     |
 | lerna publish                      | Publish packages that have changed since the last release. |
